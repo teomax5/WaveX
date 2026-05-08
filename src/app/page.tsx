@@ -188,73 +188,7 @@ export default function Home() {
             }}
           />
 
-          {/* Sonic Abstract Rings */}
-          <div className="absolute inset-0 pointer-events-none overflow-hidden">
-
-            <div
-              className="absolute top-1/2 left-1/2 rounded-full border border-pink-300/10 animate-pulse"
-              style={{
-                width: "900px",
-                height: "900px",
-                transform: "translate(-50%, -50%)",
-              }}
-            />
-
-            <div
-              className="absolute top-1/2 left-1/2 rounded-full border border-pink-300/10"
-              style={{
-                width: "700px",
-                height: "700px",
-                transform: "translate(-50%, -50%)",
-              }}
-            />
-
-            <div
-              className="absolute top-1/2 left-1/2 rounded-full border border-pink-300/15"
-              style={{
-                width: "500px",
-                height: "500px",
-                transform: "translate(-50%, -50%)",
-              }}
-            />
-
-            <div
-              className="absolute top-1/2 left-1/2 rounded-full border border-pink-300/20"
-              style={{
-                width: "300px",
-                height: "300px",
-                transform: "translate(-50%, -50%)",
-              }}
-            />
-
-            {/* Center Glow */}
-            <div
-              className="absolute top-1/2 left-1/2 rounded-full"
-              style={{
-                width: "180px",
-                height: "180px",
-                transform: "translate(-50%, -50%)",
-                background:
-                  "radial-gradient(circle, rgba(255,169,249,0.35) 0%, rgba(255,169,249,0.12) 40%, transparent 75%)",
-                filter: "blur(12px)",
-              }}
-            />
-
-            {/* Floating Glow */}
-            <div
-              className="absolute top-[20%] left-[15%] w-40 h-40 rounded-full blur-3xl"
-              style={{
-                background: "rgba(255,169,249,0.08)",
-              }}
-            />
-
-            <div
-              className="absolute bottom-[15%] right-[10%] w-52 h-52 rounded-full blur-3xl"
-              style={{
-                background: "rgba(255,169,249,0.08)",
-              }}
-            />
-          </div>
+         
 
           {/* Hero Content */}
           <div className="relative max-w-[1280px] mx-auto px-6 py-[140px] flex flex-col items-center text-center">
